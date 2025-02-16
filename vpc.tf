@@ -16,7 +16,7 @@ resource "aws_subnet" "main_subnet_b" {
   availability_zone = "us-east-1b"
 }
 
-# Subnet for RDS (updated CIDR blocks to avoid conflict)
+# Subnet for RDS 
 resource "aws_subnet" "rds_subnet_a" {
   vpc_id            = aws_vpc.main_vpc.id
   cidr_block        = "10.0.3.0/24"  # Ensure this CIDR block does not conflict
