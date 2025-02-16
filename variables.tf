@@ -1,11 +1,11 @@
 # variables.tf
 variable "db_username" {
-  description = "Jordann6"
+  description = "****"
   type        = string
 }
 
 variable "db_password" {
-  description = "SampleOne"
+  description = "****"
   type        = string
   sensitive   = true
 }
