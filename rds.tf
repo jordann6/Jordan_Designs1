@@ -1,4 +1,4 @@
-# DB Subnet Group (Referencing subnets from vpc.tf)
+# DB Subnet Group 
 resource "aws_db_subnet_group" "my_subnet_group" {
   name        = "my-db-subnet-group"
   description = "My DB subnet group"
