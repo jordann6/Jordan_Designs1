@@ -20,8 +20,8 @@ resource "aws_db_instance" "my_db" {
   instance_class       = "db.t3.micro"
   allocated_storage    = 20
   db_name              = "mydatabase"
-  username             = "Jordann6"
-  password             = "SampleOne"
+  username             = "*****"
+  password             = "*****"
   skip_final_snapshot  = true
   publicly_accessible  = false
   db_subnet_group_name = aws_db_subnet_group.my_subnet_group.id
