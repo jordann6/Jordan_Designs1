@@ -1,6 +1,6 @@
 # VPC Setup 
 resource "aws_vpc" "main_vpc" {
-  cidr_block = "10.0.0.0/16"  # Expand CIDR range if necessary
+  cidr_block = "10.0.0.0/16"  
 }
 
 # Subnet for EC2 instance
